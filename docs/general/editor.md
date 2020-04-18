@@ -1,7 +1,5 @@
 # Setting Up Your Editor
 
-You can edit React Boilerplate using any editor or IDE, but there are a few extra steps that you can take to make sure your coding experience is as good as it can be.
-
 ## VS Code
 
 To get the best editing experience with [VS Code](https://code.visualstudio.com), create a [`jsconfig.json`](https://code.visualstudio.com/Docs/languages/javascript#_javascript-projects-jsconfigjson) file at the root of your project:

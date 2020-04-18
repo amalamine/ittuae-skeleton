@@ -1,20 +1,10 @@
 # Introduction
 
-The JavaScript ecosystem evolves at incredible speed: staying current can feel
-overwhelming. So, instead of you having to stay on top of every new tool,
-feature and technique to hit the headlines, this project aims to lighten the
-load by providing a curated baseline of the most valuable ones.
-
-Using React Boilerplate, you get to start your app with our community's current
-ideas on what represents optimal developer experience, best practice, most
-efficient tooling and cleanest project structure.
-
 - [**CLI Commands**](commands.md)
 - [Setting up your editor](editor.md)
 - [Tool Configuration](files.md)
 - [Server Configurations](server-configs.md)
-- [Deployment](deployment.md) _(currently Heroku & AWS specific)_
-- [FAQ](faq.md)
+- [Deployment](deployment.md)
 - [Gotchas](gotchas.md)
 
 # Feature overview

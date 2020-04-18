@@ -5,18 +5,19 @@ code, functions. We run our tests and automatically verify that our functions
 do the thing we expect them to do. We assert that, given a set of inputs, our
 functions return the proper values and handle problems.
 
-This boilerplate uses the [Jest](https://github.com/facebook/jest) test
+This project uses the [Jest](https://github.com/facebook/jest) test
 framework to run tests and make assertions. This library makes writing tests as easy as speaking - you
 `describe` a unit of your code and `expect` `it` to do the correct thing.
 
 <!-- TOC depthFrom:2 depthTo:4 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Basics](#basics)
-  - [Jest](#jest)
-- [Testing Redux Applications](#testing-redux-applications)
-  - [Reducers](#reducers)
-    - [snapshots](#snapshots)
-  - [Actions](#actions)
+- [Unit testing](#unit-testing)
+  - [Basics](#basics)
+    - [Jest](#jest)
+  - [Testing Redux Applications](#testing-redux-applications)
+    - [Reducers](#reducers)
+      - [Snapshots](#snapshots)
+    - [Actions](#actions)
 
 <!-- /TOC -->
 
@@ -166,7 +167,7 @@ NavBar          # Wrapping folder
     └── reducer.test.js  # Reducer tests
 ```
 
-This boilerplate uses Redux, partially because it turns our data flow into
+This project uses Redux, partially because it turns our data flow into
 testable (pure) functions. Using the `NavBar` component above,
 let's see what testing the actions and the reducer would look like.
 

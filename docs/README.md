@@ -4,12 +4,10 @@
 
 - [General](general)
   - [**CLI Commands**](general/commands.md)
-  - [Introduction ](general/introduction.md)
   - [Tool Configuration](general/files.md)
   - [Server Configurations](general/server-configs.md)
-  - [Deployment](general/deployment.md) _(currently Heroku and AWS S3 specific)_
+  - [Deployment](general/deployment.md)
   - [Debugging](general/debugging.md)
-  - [FAQ](general/faq.md)
   - [Gotchas](general/gotchas.md)
   - [Remove](general/remove.md)
   - [Extracting components](general/components.md)
@@ -32,40 +30,8 @@
   - [redux-saga](js/redux-saga.md)
   - [i18n](js/i18n.md)
   - [routing](js/routing.md)
-- [Maintenance](maintenance)
-  - [Dependency Update](maintenance/dependency.md)
-- [Forks](forks)
 
 ## Overview
-
-### Quickstart
-
-1.  First, let's kick the tyres by launching the sample _Repospective_ app
-    bundled with this project to demo some of its best features:
-
-    ```Shell
-    npm run setup && npm start
-    ```
-
-1.  Open [localhost:3000](http://localhost:3000) to see it in action.
-
-    - Add a Github username to see Redux and Redux Sagas in action: effortless
-      async state updates and side effects are now yours :)
-    - Edit the file at `./app/components/Header/index.js` so that the text of
-      the `<Button>` component reads "Features!!!"... [Hot Module Reloading](https://webpack.js.org/guides/hot-module-replacement/) gives
-      you a feedback loop with your UI so smooth it's almost conversational!
-    - Click your (newly emphatic) Features button to see React Router in action...
-      Now you can share a direct link to that content privately over your LAN or
-      globally addressable to any device, anywhere. Not bad for a locally-running
-      Single Page App.
-
-1.  Time to build your own app: run
-
-    ```shell
-    npm run clean
-    ```
-
-    ...and use the built-in generators to start your first feature.
 
 ### Development
 
@@ -85,8 +51,6 @@ JavaScript, HTML and tests.
 
 The rest of the folders and files only exist to make your life easier, and
 should not need to be touched.
-
-_(If they do have to be changed, please [submit an issue](https://github.com/react-boilerplate/react-boilerplate/issues)!)_
 
 ### CSS
 

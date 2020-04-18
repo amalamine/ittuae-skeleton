@@ -1,10 +1,10 @@
 {
-  "name": "react-boilerplate",
-  "version": "4.0.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "name": "ittuae-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton for the React web-app of ITTUAE",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "https://github.com/amalamine/ittuae-skeleton"
   },
   "engines": {
     "npm": ">=5",

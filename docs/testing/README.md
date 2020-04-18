@@ -12,17 +12,17 @@ understand that!
 We also support [remote testing](remote-testing.md) your local application,
 which is quite awesome, so definitely check that out!
 
-## Usage with this boilerplate
+## Usage with this application
 
-To test your application started with this boilerplate do the following:
+To test your application do the following:
 
 1.  Sprinkle `.test.js` files directly next to the parts of your application you
     want to test. (Or in `test/` subdirectories, it doesn't really matter as long
     as they are directly next to those parts and end in `.test.js`)
 
-1.  Write your unit and component tests in those files.
+2.  Write your unit and component tests in those files.
 
-1.  Run `npm run test` in your terminal and see all the tests pass! (hopefully)
+3.  Run `npm run test` in your terminal and see all the tests pass! (hopefully)
 
 There are a few more commands related to testing, checkout the [commands documentation](../general/commands.md#testing)
 for the full list!
