@@ -42,7 +42,10 @@
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prettify": "prettier --write"
+    "prettify": "prettier --write",
+    "compile-sass": "node-sass app/styles/scss/theme.scss app/styles/css/theme.css",
+    "minify-sass": "node-sass app/styles/scss/theme.scss app/styles/css/theme.min.css --output-style compressed",
+    "map-sass": "node-sass app/styles/scss/theme.scss app/styles/css/theme.css --source-map true"
   },
   "browserslist": [
     "last 2 versions",
@@ -65,7 +68,10 @@
   },
   "dependencies": {
     "@babel/polyfill": "7.4.3",
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
     "chalk": "^2.4.2",
+    "classnames": "^2.2.6",
     "compression": "1.7.4",
     "connected-react-router": "6.4.0",
     "cross-env": "5.2.0",
